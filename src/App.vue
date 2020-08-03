@@ -6,11 +6,11 @@
 
     <sidebar>
       <ul class="sidebar-panel-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><router-link to="/">HOME</router-link></li>
+        <li><router-link to="/about">ABOUT</router-link></li>
       </ul>
     </sidebar>
+    <router-view/>
   </div>
 </template>
 
@@ -36,14 +36,11 @@ html {
    border: 0; margin: 0; padding: 0;
    font-family: 'Lato';
    height: 100%;
-   background: rgb(101,31,87);
-   background: linear-gradient(45deg, rgba(101,31,87,1) 0%, rgba(225,113,87,1) 48%, rgba(249,248,113,1) 100%);
  }
-
 
  .main-nav {
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
    padding: 0.5rem 0.8rem;
  }
 
@@ -51,7 +48,7 @@ html {
    list-style-type: none;
  }
 
- ul.sidebar-panel-nav > li > a {
+ ul.sidebar-panel-nav > li {
    color: #fff;
    text-decoration: none;
    font-size: 1.5rem;
