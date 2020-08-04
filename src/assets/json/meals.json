@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Salad",
+        "delivery_time": "30-35 mins",
+        "img": "salad",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Pizza",
+        "delivery_time": "30-35 mins",
+        "img": "pizza",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Beef Steak",
+        "delivery_time": "30-35 mins",
+        "img": "steak",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Fried Salmon",
+        "delivery_time": "30-35 mins",
+        "img": "salmon",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Chicken Burger,",
+        "delivery_time": "30-35 mins",
+        "img": "chicken_burger",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Chicken Burger + Fries",
+        "delivery_time": "30-35 mins",
+        "img": "burger+fries",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Grill Cheese Sandwich,",
+        "delivery_time": "30-35 mins",
+        "img": "grill-cheese",
+        "rating": "4",
+        "cost": "20$"
+      },
+      {
+        "name": "Rice + Prawns Soup",
+        "delivery_time": "30-35 mins",
+        "img": "prawns-soup",
+        "rating": "4",
+        "cost": "20$"
+      }
+]

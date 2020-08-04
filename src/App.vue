@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="main-nav">
+    <!-- <nav class="main-nav">
       <burger></burger>
     </nav>
 
@@ -9,7 +9,7 @@
         <li><router-link to="/">HOME</router-link></li>
         <li><router-link to="/about">ABOUT</router-link></li>
       </ul>
-    </sidebar>
+    </sidebar> -->
     <router-view/>
   </div>
 </template>
@@ -27,17 +27,6 @@ export default {
 </script>
 
 <style>
-html {
-   height: 100%;
-   overflow:hidden;
- }
-
- body {
-   border: 0; margin: 0; padding: 0;
-   font-family: 'Lato';
-   height: 100%;
- }
-
  .main-nav {
    display: flex;
    justify-content: flex-end;
